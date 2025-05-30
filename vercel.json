@@ -2,7 +2,7 @@
   "buildCommand": "bun run build",
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "src/main.ts": {
+    "dist/main.js": {
       "runtime": "@godsreveal/vercel-bun@0.0.50"
     }
   },
