@@ -2,9 +2,9 @@
   "buildCommand": "bun run build",
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "dist/main.js": {
+    "api/index.js": {
       "runtime": "@godsreveal/vercel-bun@0.0.50"
     }
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/dist/main.js" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.js" }]
 }
