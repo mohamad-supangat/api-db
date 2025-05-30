@@ -1,4 +1,5 @@
 {
+  "buildCommand": "bun run build",
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "src/main.ts": {
@@ -6,5 +7,5 @@
     }
   },
   // Optional: use if you want all /api routes to be handled by /api/index.ts
-  "rewrites": [{ "source": "/(.*)", "destination": "/src/main.ts" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/dist/main.js" }]
 }
