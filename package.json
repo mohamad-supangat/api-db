@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "description": "REST API Database Sekolah dan Kode Pos",
   "main": "dist/main.js",
-  "scripts": {
-    "build:vercel": "bun-vercel ./src/main.ts",
-    "build": "bun build --target=bun --outfile=./api/index.js ./src/main.ts",
-    "dev": "bun --watch ./src/main.ts",
-    "start": "bun ./src/main.ts"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Aura Komputer",
   "license": "ISC",
